@@ -1,116 +1,487 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="ar" dir="rtl">
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <meta name="description" content="MR.X BARBER - صالون حلاقة احترافي في الإسكندرية وأبها">
-  <title>MR.X BARBER | أناقتك.. عنوانك</title>
-<link rel="stylesheet" href="styles.css">
+  <meta name="description" content="MR.X BARBER - فرع أبها المنسك. حجز مواعيد الحلاقة والتواصل عبر واتساب.">
+  <meta name="theme-color" content="#0b0b0c">
+  <title>MR.X BARBER | أبها - المنسك</title>
+  <link rel="stylesheet" href="styles.css">
 </head>
+
 <body>
-<header class="topbar">
-  <a class="brand" href="#home"><span>MR.X</span><small>BARBER</small></a>
-  <nav>
-    <a href="#home">الرئيسية</a><a href="#services">الخدمات</a><a href="#branches">فروعنا</a>
-    <a href="#about">من نحن</a><a href="#gallery">معرض الصور</a><a href="#booking">الحجز</a>
-  </nav>
-  <a class="btn btn-gold" href="#booking">احجز موعدك</a>
+
+<header class="header">
+  <div class="container nav">
+
+    <a class="brand" href="#home" aria-label="MR.X BARBER">
+      <span class="brand-mark">MR.X</span>
+      <span>BARBER</span>
+    </a>
+
+    <nav class="nav-links">
+      <a href="#home">الرئيسية</a>
+      <a href="#services">خدماتنا</a>
+      <a href="#about">من نحن</a>
+      <a href="#gallery">المعرض</a>
+      <a href="#contact">تواصل معنا</a>
+    </nav>
+
+    <a class="nav-book"
+       href="https://wa.me/966568061931?text=السلام%20عليكم،%20أرغب%20في%20حجز%20موعد%20في%20فرع%20أبها%20المنسك."
+       target="_blank"
+       rel="noopener">
+       احجز موعدك
+    </a>
+
+  </div>
 </header>
 
-<main>
-<section id="home" class="hero">
-  <div class="hero-copy">
-    <div class="eyebrow">MR.X BARBER</div>
-    <h1>أناقتك .. <span>عنوانك</span></h1>
-    <p>تجربة حلاقة احترافية تجمع بين الدقة، الأناقة والاهتمام بكل التفاصيل.</p>
-    <div class="actions">
-      <a class="btn btn-gold" href="#booking">احجز موعدك الآن</a>
-      <a class="btn btn-outline" href="#services">استكشف خدماتنا</a>
+<main id="home">
+
+<!-- HERO -->
+
+<section class="hero">
+
+  <div class="hero-glow"></div>
+
+  <div class="container hero-grid">
+
+    <div class="hero-copy">
+
+      <span class="eyebrow">✦ فرع أبها — المنسك 🇸🇦</span>
+
+      <h1>
+        أناقتك…
+        <br>
+        <span>عنوانك</span>
+      </h1>
+
+      <p>
+        تجربة حلاقة احترافية تجمع بين الدقة،
+        الأناقة والاهتمام بكل التفاصيل.
+        نجهز لك إطلالة تليق بك.
+      </p>
+
+      <div class="hero-actions">
+
+        <a class="btn btn-primary"
+           href="https://wa.me/966568061931?text=السلام%20عليكم،%20أرغب%20في%20حجز%20موعد%20في%20فرع%20أبها%20المنسك."
+           target="_blank"
+           rel="noopener">
+           احجز عبر واتساب
+        </a>
+
+        <a class="btn btn-outline" href="#services">
+          استكشف خدماتنا
+        </a>
+
+      </div>
+
+      <div class="quick-info">
+        <span>✂️ حلاقة احترافية</span>
+        <span>★ عناية بالتفاصيل</span>
+        <span>📍 أبها — المنسك</span>
+      </div>
+
     </div>
-    <div class="locations-mini"><span>🇪🇬 الإسكندرية – مصر</span><span>🇸🇦 أبها – المنسك</span></div>
+
+    <div class="hero-card">
+
+      <div class="card-top">
+        <span>MR.X</span>
+        <span>BARBER</span>
+      </div>
+
+      <div class="scissors">✂</div>
+
+      <h2>ستايلك يبدأ من هنا</h2>
+
+      <p>
+        احجز موعدك الآن بسهولة عبر واتساب.
+      </p>
+
+      <a
+        href="https://wa.me/966568061931?text=أرغب%20في%20حجز%20موعد%20في%20فرع%20أبها%20المنسك."
+        target="_blank"
+        rel="noopener"
+        class="mini-book">
+        0568061931 ↗
+      </a>
+
+    </div>
+
   </div>
-  <div class="hero-image">
-    <img src="gallery-1.png" alt="قصة شعر من أعمال MR.X">
-  </div>
+
 </section>
 
-<section id="services" class="section">
-  <div class="section-head"><span>✦</span><h2>خدماتنا</h2><span>✦</span><p>كل ما تحتاجه لإطلالة متكاملة</p></div>
-  <div class="cards">
-    <article><b>✂</b><h3>قص الشعر</h3><p>أحدث القصات العصرية بما يناسب مظهرك.</p></article>
-    <article><b>♛</b><h3>تهذيب وحلاقة اللحية</h3><p>تحديد دقيق ولمسات احترافية.</p></article>
-    <article><b>✦</b><h3>العناية بالبشرة</h3><p>جلسات عناية تمنحك مظهرًا متجددًا.</p></article>
-    <article><b>★</b><h3>باقات VIP</h3><p>تجربة متكاملة بخدمة مميزة.</p></article>
-    <article><b>◉</b><h3>حلاقة الأطفال</h3><p>أجواء مريحة وخدمة مناسبة للصغار.</p></article>
+
+<!-- SERVICES -->
+
+<section class="section" id="services">
+
+  <div class="container">
+
+    <div class="section-head">
+
+      <div>
+        <span class="eyebrow">✦ خدماتنا</span>
+
+        <h2>
+          كل ما تحتاجه
+          <span>لإطلالة متكاملة</span>
+        </h2>
+      </div>
+
+      <p>
+        خدماتنا مصممة لتمنحك مظهراً أنيقاً
+        وتجربة مريحة من أول لحظة.
+      </p>
+
+    </div>
+
+
+    <div class="services-grid">
+
+      <article class="service">
+        <div class="icon">✂</div>
+        <h3>قص الشعر</h3>
+        <p>
+          أحدث القصات العصرية بما يناسب
+          مظهرك وشخصيتك.
+        </p>
+      </article>
+
+
+      <article class="service">
+        <div class="icon">♨</div>
+        <h3>حلاقة اللحية</h3>
+        <p>
+          تحديد وتشذيب احترافي للحصول
+          على إطلالة مرتبة.
+        </p>
+      </article>
+
+
+      <article class="service">
+        <div class="icon">✦</div>
+        <h3>عناية متكاملة</h3>
+        <p>
+          تفاصيل إضافية تمنحك تجربة راقية
+          ومظهراً متكاملاً.
+        </p>
+      </article>
+
+
+      <article class="service">
+        <div class="icon">★</div>
+        <h3>ستايل خاص</h3>
+        <p>
+          نساعدك في اختيار اللوك المناسب
+          لك بكل عناية.
+        </p>
+      </article>
+
+    </div>
+
   </div>
+
 </section>
 
-<section id="branches" class="section branches">
-  <div class="section-head"><span>✦</span><h2>فروعنا</h2><span>✦</span><p>خدمتك في أكثر من مكان</p></div>
-  <div class="branch-grid">
-    <article class="branch">
-      <div class="branch-photo alex"></div>
-      <div><span class="flag">🇪🇬</span><h3>الإسكندرية – مصر</h3><p>خدمة احترافية وأحدث قصات الشعر واللحية.</p>
-      <a class="btn btn-outline" href="#booking">احجز في الفرع</a></div>
-    </article>
-    <article class="branch">
-      <div class="branch-photo abha"></div>
-      <div><span class="flag">🇸🇦</span><h3>أبها – حي المنسك</h3><p>تجربة راقية بطابع عصري وخدمة احترافية.</p>
-      <a class="btn btn-outline" href="#booking">احجز في الفرع</a></div>
-    </article>
+
+<!-- ABOUT -->
+
+<section class="about section" id="about">
+
+  <div class="container about-grid">
+
+    <div class="about-art">
+
+      <div class="about-logo">
+        MR.X
+        <br>
+        <small>BARBER</small>
+      </div>
+
+      <span class="stamp">
+        ABHA
+        <br>
+        AL-MANSIK
+      </span>
+
+    </div>
+
+
+    <div>
+
+      <span class="eyebrow">
+        ✦ قصتك تبدأ هنا
+      </span>
+
+      <h2>
+        أناقة تُرى…
+        <span>وتُحس</span>
+      </h2>
+
+      <p>
+        في MR.X BARBER نهتم بأن تكون كل زيارة
+        تجربة مختلفة. من اختيار القصة إلى أدق
+        تفاصيل التشذيب، هدفنا أن تخرج وأنت
+        راضٍ عن إطلالتك.
+      </p>
+
+
+      <ul class="check-list">
+
+        <li>
+          خبرة واهتمام بالتفاصيل
+        </li>
+
+        <li>
+          أسلوب عصري يناسبك
+        </li>
+
+        <li>
+          حجز سريع وسهل عبر واتساب
+        </li>
+
+      </ul>
+
+
+      <a
+        class="btn btn-primary"
+        href="https://wa.me/966568061931?text=أرغب%20في%20الاستفسار%20عن%20الخدمات."
+        target="_blank"
+        rel="noopener">
+        تواصل معنا
+      </a>
+
+    </div>
+
   </div>
+
 </section>
 
-<section id="about" class="section about">
-  <div class="about-image"><img src="gallery-3.png" alt="أجواء وتجربة صالون"></div>
-  <div>
-    <div class="eyebrow">MR.X BARBER</div>
-    <h2>أكثر من مجرد حلاقة</h2>
-    <p>في MR.X نؤمن أن الحلاقة تجربة متكاملة. نهتم بالتفاصيل الصغيرة، من اختيار القصة المناسبة إلى اللمسات النهائية، لنقدم لك إطلالة تليق بك.</p>
-    <ul><li>حلاقون محترفون</li><li>أدوات نظيفة ومعقمة</li><li>خدمة وحجز سريع</li><li>تجربة مريحة وراقية</li></ul>
+
+<!-- GALLERY -->
+
+<section class="section" id="gallery">
+
+  <div class="container">
+
+    <div class="section-head">
+
+      <div>
+
+        <span class="eyebrow">
+          ✦ المعرض
+        </span>
+
+        <h2>
+          لمسات
+          <span>MR.X</span>
+        </h2>
+
+      </div>
+
+      <p>
+        نماذج من أجواء وأعمال MR.X BARBER.
+      </p>
+
+    </div>
+
+
+    <div class="gallery">
+
+      <div class="gallery-card g1">
+        <span>MR.X</span>
+        <small>STYLE</small>
+      </div>
+
+      <div class="gallery-card g2">
+        <span>BARBER</span>
+        <small>CRAFT</small>
+      </div>
+
+      <div class="gallery-card g3">
+        <span>ABHA</span>
+        <small>AL-MANSIK</small>
+      </div>
+
+    </div>
+
   </div>
+
 </section>
 
-<section id="gallery" class="section">
-  <div class="section-head"><span>✦</span><h2>معرض الصور</h2><span>✦</span><p>نماذج من أعمالنا</p></div>
-  <div class="gallery">
-    <img src="gallery-1.png" alt="عمل MR.X 1"><img src="gallery-2.png" alt="عمل MR.X 2"><img src="gallery-3.png" alt="أجواء الصالون">
+
+<!-- BOOKING -->
+
+<section class="booking">
+
+  <div class="container booking-box">
+
+    <div>
+
+      <span class="eyebrow">
+        ✦ جاهز؟
+      </span>
+
+      <h2>
+        احجز موعدك الآن
+      </h2>
+
+      <p>
+        اضغط الزر وسيتم فتح واتساب مباشرة
+        برسالة جاهزة لفرع أبها المنسك.
+      </p>
+
+    </div>
+
+
+    <a
+      class="btn btn-whatsapp"
+      href="https://wa.me/966568061931?text=السلام%20عليكم،%20أرغب%20في%20حجز%20موعد%20في%20فرع%20أبها%20المنسك."
+      target="_blank"
+      rel="noopener">
+
+      💬 حجز عبر واتساب
+
+    </a>
+
   </div>
+
 </section>
 
-<section class="section testimonials">
-  <div class="section-head"><span>✦</span><h2>آراء عملائنا</h2><span>✦</span></div>
-  <div class="quote-grid">
-    <blockquote>★★★★★<br>“اهتمام رائع بالتفاصيل ونتيجة ممتازة.”<cite>— عميل MR.X</cite></blockquote>
-    <blockquote>★★★★★<br>“تجربة راقية وخدمة احترافية.”<cite>— عميل MR.X</cite></blockquote>
-    <blockquote>★★★★★<br>“القصة والتشطيب على مستوى ممتاز.”<cite>— عميل MR.X</cite></blockquote>
+
+<!-- CONTACT -->
+
+<section class="contact section" id="contact">
+
+  <div class="container">
+
+    <div class="section-head">
+
+      <div>
+
+        <span class="eyebrow">
+          ✦ تواصل معنا
+        </span>
+
+        <h2>
+          فرع
+          <span>أبها — المنسك</span>
+        </h2>
+
+      </div>
+
+    </div>
+
+
+    <div class="contact-grid">
+
+      <a
+        class="contact-card"
+        href="tel:+966568061931">
+
+        <span>📞</span>
+
+        <div>
+          <small>الهاتف</small>
+          <strong>056 806 1931</strong>
+        </div>
+
+      </a>
+
+
+      <a
+        class="contact-card"
+        href="https://wa.me/966568061931"
+        target="_blank"
+        rel="noopener">
+
+        <span>💬</span>
+
+        <div>
+          <small>واتساب</small>
+          <strong>احجز أو استفسر الآن</strong>
+        </div>
+
+      </a>
+
+
+      <a
+        class="contact-card"
+        href="https://www.google.com/maps/search/?api=1&query=المنسك%20أبها%20السعودية"
+        target="_blank"
+        rel="noopener">
+
+        <span>📍</span>
+
+        <div>
+          <small>الموقع</small>
+          <strong>أبها — المنسك</strong>
+        </div>
+
+      </a>
+
+    </div>
+
   </div>
+
 </section>
 
-<section id="booking" class="section booking">
-  <div>
-    <div class="eyebrow">BOOKING</div><h2>احجز موعدك الآن</h2>
-    <p>املأ البيانات وسنجهز لك طلب الحجز. يمكنك لاحقًا ربط النموذج بواتساب أو نظام حجوزات فعلي.</p>
-  </div>
-  <form id="bookingForm">
-    <input id="name" required placeholder="الاسم الكامل">
-    <input id="phone" required placeholder="رقم الهاتف" inputmode="tel">
-    <select id="branch" required><option value="">اختر الفرع</option><option>الإسكندرية – مصر</option><option>أبها – حي المنسك</option></select>
-    <select id="service" required><option value="">اختر الخدمة</option><option>قص الشعر</option><option>تهذيب وحلاقة اللحية</option><option>العناية بالبشرة</option><option>باقة VIP</option><option>حلاقة الأطفال</option></select>
-    <input id="date" type="date" required><input id="time" type="time" required>
-    <button class="btn btn-gold" type="submit">تأكيد الحجز عبر واتساب</button>
-    <p id="formMsg" class="form-msg"></p>
-  </form>
-</section>
 </main>
 
+
+<!-- FOOTER -->
+
 <footer>
-  <div class="brand"><span>MR.X</span><small>BARBER</small></div>
-  <p>أناقتك .. عنوانك</p>
-  <div><strong>فروعنا</strong><br>الإسكندرية – مصر<br>أبها – حي المنسك – السعودية</div>
-  <div><strong>التواصل</strong><br>أضف رقم الهاتف وواتساب هنا</div>
-  <small>© <span id="year"></span> MR.X BARBER — جميع الحقوق محفوظة</small>
+
+  <div class="container footer-inner">
+
+    <div class="brand">
+
+      <span class="brand-mark">
+        MR.X
+      </span>
+
+      <span>
+        BARBER
+      </span>
+
+    </div>
+
+    <p>
+      © <span id="year"></span>
+      MR.X BARBER — فرع أبها المنسك
+    </p>
+
+    <a
+      href="https://wa.me/966568061931"
+      target="_blank"
+      rel="noopener">
+      واتساب ↗
+    </a>
+
+  </div>
+
 </footer>
+
+
+<!-- WHATSAPP FLOATING BUTTON -->
+
+<a
+  class="floating-wa"
+  href="https://wa.me/966568061931?text=السلام%20عليكم،%20أرغب%20في%20حجز%20موعد."
+  target="_blank"
+  rel="noopener"
+  aria-label="واتساب">
+  💬
+</a>
+
+
 <script src="script.js"></script>
+
 </body>
 </html>
